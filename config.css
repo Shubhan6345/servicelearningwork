@@ -1,0 +1,245 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: center;
+	align-items: center;
+	color: black;
+	background-image: url("/Web/servicelearning/img\ 1.png");
+}
+
+.vid{
+	border-radius: 10px;
+}
+
+.made-by{
+	color: black;
+}
+
+.text-box{
+	width: 90%;
+	position: absolute;
+	color: black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.nav-area {
+	list-style: none;
+	float: none;
+	padding: 10px 12px;
+    text-align: center;
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 11px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: black;
+	color: whitesmoke;
+}
+.welcome-text {
+	position: center;
+	width: 600px;
+	height: 300px;
+	text-align: center;
+	float: none;
+    align-items: center;
+}
+
+.welcome-text h1 {
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: black;
+}
+
+.right a:hover{
+    color: black;
+}
+
+.marginfix{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+body{
+	font-family: 'Chivo Mono', monospace;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.toc{
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: whitesmoke;
+    text-align: center;
+	color: black;
+}
+
+.video{
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    text-align: center;
+	color: black;
+	background: rgb(227,219,233);
+background: radial-gradient(circle, rgba(227,219,233,1) 3%, rgba(178,183,223,1) 100%);
+}
+
+.survey{
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    text-align: center;
+	color: black;
+}
+
+.about{
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	color: black;
+    text-align: center;
+}
+
+.research{
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: black;
+    text-align: center;
+}
+
+.contact{
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+    color: black;
+    text-align: center;
+	background: rgb(227,219,233);
+background: radial-gradient(circle, rgba(227,219,233,1) 3%, rgba(208,178,223,1) 100%);
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+}
+
+form input, form textarea{
+	border: 0;
+	margin: 10px 0;
+	padding: 10px;
+	outline: none;
+	background: black;
+	font-size: 16px;
+	border-radius: 10px;
+	align-items: center;
+}
+
+form button{
+	padding: 15px;
+	background: rgb(129, 225, 177);
+	color: black;
+	font-size: 18px;
+	border: 0;
+	cursor: pointer;
+	width: 125px;
+	margin: 20px auto 0;
+	border-radius: 10px;
+}
+
+form button:hover{
+	color: rgb(129, 225, 177);
+	background: black;
+}
+
+::-webkit-scrollbar {
+	width: 9px;
+}
+  
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #26292a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #3f3f3f;
+}
+
+.sub-text-box{
+	width: 90%;
+	position: absolute;
+	color: black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	color: #3f3f3f;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.icons .fa{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+	color: red;
+}
